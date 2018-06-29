@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "client": "cd client && npm run start",
     "install": "cd client && yarn install",
     "build": "cd client && yarn run build",
     "heroku-postbuild": "yarn run build"
@@ -26,7 +25,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mongoose": "^5.1.7",
-    "react-router": "^4.3.1"
+    "react-router": "^4.3.1",
+    "yarn": "^1.7.0"
   },
   "devDependencies": {}
 }
