@@ -1,0 +1,10 @@
+.saved-container {
+    background-color: blue;
+    width: 960px;
+    margin: auto;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px;
+    color:white;
+}
